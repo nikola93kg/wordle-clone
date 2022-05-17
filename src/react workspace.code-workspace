@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"name": "Code 15 React projects",
+			"path": "D:\\Code 15 React projects"
+		},
+		{
+			"name": "React.js",
+			"path": "..\\.."
+		},
+		{
+			"name": "nikola93kg.github.io-master",
+			"path": "..\\..\\..\\web projects\\nikola93kg.github.io-master"
+		},
+		{
+			"path": "..\\..\\..\\jS\\vezbe"
+		},
+		{
+			"path": "..\\..\\..\\web projects\\magijabebo"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "nikola93kg.github.io-master"
+	}
+}
