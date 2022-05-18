@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background-color: #121212;
+  background-image: linear-gradient( 180deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8) ), url(https://images.unsplash.com/photo-1592431913823-7af6b323da9b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
   width: 100vw;
   height: 100vh;
   /* display: flex; */
@@ -39,7 +40,9 @@ nav h1 {
 .board {
   width: 450px;
   height: 550px;
-  border: 1px solid black;
+  box-shadow: 0px 0px 8px #fff9;
+  border-radius: 5px;
+  padding: 5px;
   display: flex;
   flex-direction: column;
 }
@@ -80,6 +83,8 @@ nav h1 {
   width: 700px;
   height: 300px;
   margin-top: 60px;
+  box-shadow: 0px 0px 5px #fff5;
+
 }
 
 .line1 {
@@ -124,4 +129,22 @@ nav h1 {
 }
 #disabled {
   background-color: #3a393c;
+}
+
+@media only screen and (max-width: 1560px) {
+   .letter {
+    height: 47px;
+  }
+  :is(.line1, .line2, .line3) {
+    /* border: 2px solid #00f; */
+    /* height: 40px; */
+  }
+  .keyboard {
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .key {
+    height: 30px;
+  }
 }

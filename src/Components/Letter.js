@@ -3,7 +3,7 @@ import { AppContext } from "../App"
 
 function Letter({ letterPosition, attemptValue }) {
 
-    const { board, correctWord, currentAttempt, disabledLetters, setDisabledLetters } = useContext(AppContext);
+    const { board, correctWord, currentAttempt, setDisabledLetters } = useContext(AppContext);
     const letter = board[attemptValue][letterPosition];
 
     const correct = correctWord[letterPosition] === letter;
